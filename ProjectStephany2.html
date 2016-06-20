@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewpoint" content="width-device-width"/>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+</head>
+<style>
+
+	*{
+		margin:0;padding:0;}
+
+#nav{
+	background-color: #080707;
+	height: 50px;
+	padding:5px;
+	position: fixed;
+	width: 100%;
+	border-bottom: 2px solid #f3caba;
+	top: 0;
+	z-index: 999;
+}
+.wrap{
+	max-width:1220px;
+	height:50px;
+	margin: 0 auto;
+
+}
+img#logo{
+	height: 100%;
+}
+
+img.feat{
+	width:100%;
+}
+
+#content{
+	max-width:1220px;
+	margin-top: 80px;
+	margin-left:20px;
+	margin-right: 20px;
+}
+
+a {
+	color:purple;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+}
+
+.navlinks a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navlinks a:hover{
+	background-color: #f3caba;
+	padding: 10px;
+	color:black;
+}
+
+.navlinks{
+	display:inline;
+	font-family:'Montserrat', sans-serif;
+	font-size: 12px;
+	padding: 15px;
+	margin-bottom: 10px;
+	position:absolute;
+	width: 450px;
+
+}
+
+.drool{
+	position:relative;left:25px;
+	height: 30%;
+	display: inline-block;
+	padding-right: 10px;
+	border-right: 1px solid gray;
+    border-spacing: 15px;
+
+}
+
+.need{
+	position:relative;left:30px;
+	height: 30%;
+	display: inline-block;
+	padding-right: 10px;
+	border-right: 1px solid gray;
+	border-spacing: 15px;
+}
+
+.star{
+	position:relative;left:40px;
+	display: inline-block;
+	height: 30%;
+	padding-right: 10px;
+	border-right: 1px solid gray;
+	border-spacing: 15px;
+}
+
+.judge{
+	display: inline-block;
+	position:relative;left:50px;
+	height: 30%;
+	padding-right: 10px;
+	border-right: 1px solid gray;
+	border-spacing: 15px;
+}
+
+#flaunts{
+	height:55px;
+	max-width:1200px;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgba(26,26,26,0.6);
+	color:white;
+	font-size: 25px;
+	padding: 10px;
+	margin-top: -90px;
+}
+
+#bey{
+	height: 100%;
+	max-width:1220px;
+	width: 80%;
+	position: relative;
+	display: inline-block;
+	font-family:'Montserrat', sans-serif;
+	top:50px;
+}
+
+p{
+	font-family:'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+h2 h6{
+	font-family:'Montserrat', sans-serif;
+}
+
+hr {
+	max-width:1220px;
+	margin-top: 20px;
+	z-index: 999;
+}
+
+#beytext{
+	font-family:'Montserrat', sans-serif;
+	width: 100%;
+}
+
+#beytext2{
+	font-family:'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+#adspace{
+	float:right;
+	width: 20%;
+	height: 800px;
+	background-color: red;
+}
+
+
+@media all and (max-device-width : 400px) {
+	div.judge div.star div.need div.drool {
+		display: none;
+	}
+	div.img#logo{
+		background-color:red;
+		margin: 0 auto;
+	}
+
+}
+
+ 			
+</style>
+
+<body>
+<div id="nav">
+	<div class="wrap">
+		<img src="logo.png" id="logo">
+		<div class="navlinks">
+			<div class="drool"><a href="#drooling">DROOLING</a></div>
+  			<div class="need"><a href="#needthis">NEED THIS</a></div>
+  			<div class="star"><a href="#starstruck">STAR STRUCK</a></div>
+  			<div class="judge"><a href="#dontjudge">DON'T JUDGE</a></div>
+		</div>	
+	</div>	
+</div>				
+			<div id="content">
+				<img src="pic1.jpg" class="feat">
+				<div class="wrap">
+					<div id="flaunts">
+					KENDALL FLAUNTS HER HOODIE WHILE HIKING IN MALIBU!
+					</div>
+				</div>	
+				<div id="container">
+					<div id="bey">
+				<hr>
+						<div id="beytext">
+							<h2>AWW! BEYONCE'S ANNIVERSARY PRESENT TO JAY-Z IS BEYOND ADORABLE!</h2>
+							<br>
+							<h6><a href='#needthis'>NEED THIS</a></h6><br>
+							<h6>BY ALAIN GOLDMAN APR. 05TH 3PM</h6>
+							<br>
+							<img src="beyonce.jpg" class="feat"><br>
+							<div id="beytext2">
+								Ladies and gents, take note from the queen herself! To celebrate their seventh wedding anniversary, Queen Bey released a brand new video for "Die With You," a song dedicated to Hov. The camera then spins around and the camera is Jay himself...<ahref='#more'>MORE</a><br>
+								<br>
+							</div>
+					</div>	
+				</div>	
+				<div id="adspace">
+				</div>
+			</div>	
+
+</body>
+</html>
